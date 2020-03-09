@@ -1,0 +1,25 @@
+{
+  "name": "parcel-plugin-copy-files",
+  "version": "0.0.1",
+  "description": "parcel plugin to copy a list of files straight into your dist directory",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tehpsalmist/parcel-plugin-copy-files.git"
+  },
+  "keywords": [
+    "parcel",
+    "plugin",
+    "copy",
+    "files"
+  ],
+  "author": "Ben Steward <bstewardcodes@gmail.com> (https://tehpsalmist.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tehpsalmist/parcel-plugin-copy-files/issues"
+  },
+  "homepage": "https://github.com/tehpsalmist/parcel-plugin-copy-files#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
