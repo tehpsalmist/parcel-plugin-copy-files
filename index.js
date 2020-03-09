@@ -13,10 +13,10 @@ module.exports = function (bundler) {
       const targetPath = path.resolve(bundleDir, file.target || path.basename(file))
 
       fs.copyFile(file, targetPath, err => err && console.error(err))
-    }
 
-    for (const childBundle of bundle.childBundles) {
-      bundler.watch(file, childBundle.entryAsset)
+      for (const childBundle of bundle.childBundles) {
+        bundler.watch(filePath, childBundle.entryAsset)
+      }
     }
   })
 }
