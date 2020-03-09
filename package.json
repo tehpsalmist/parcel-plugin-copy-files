@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-copy-files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "parcel plugin to copy a list of files straight into your dist directory",
   "main": "index.js",
   "repository": {
