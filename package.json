@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/tehpsalmist/parcel-plugin-copy-files.git"
   },
+  "scripts": {
+    "release": "standard-version"
+  },
   "keywords": [
     "parcel",
     "plugin",
@@ -20,6 +23,7 @@
   },
   "homepage": "https://github.com/tehpsalmist/parcel-plugin-copy-files#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "standard-version": "^7.1.0"
   }
 }
