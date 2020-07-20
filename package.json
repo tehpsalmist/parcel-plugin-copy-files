@@ -24,6 +24,6 @@
   "homepage": "https://github.com/tehpsalmist/parcel-plugin-copy-files#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   }
 }
